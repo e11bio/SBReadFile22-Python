@@ -11,10 +11,10 @@ __license__  = "This source code is licensed under the BSD-style license found i
 #they are in the sandbox, or on github
 #sys.path.append('C:/Users/Nicola Papp/Perforce/Nicola_MSI_552/dev/SB_7.0_BCG/SBReadFile/dist/Python/Format 7')
 import io
-from CMetadataLib import BaseDecoder
-from CMetadataLib import CLensDef70
-from CMetadataLib import CFluorDef70
-from CMetadataLib import COptovarDef70
+from .CMetadataLib import BaseDecoder
+from .CMetadataLib import CLensDef70
+from .CMetadataLib import CFluorDef70
+from .CMetadataLib import COptovarDef70
 from enum import Enum
 import yaml
 

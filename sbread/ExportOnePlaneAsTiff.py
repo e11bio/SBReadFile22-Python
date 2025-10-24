@@ -22,7 +22,7 @@ conda activate Slidebook
 conda install -n SlideBook python=3.8.5 tifffile
 """
 
-from SBReadFile import *
+from .SBReadFile import *
 from matplotlib import pyplot as plt
 import numpy as np
 import sys, getopt
